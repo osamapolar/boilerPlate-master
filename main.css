@@ -5,16 +5,29 @@
 }
 
 
-.columms {
 
-  
+.columms {
+  font-family: "jost";
   margin: 5rem auto;
   width: min(90%, 22rem);
   display: grid;
+  margin-left: 50px;
   grid-auto-flow: row;
   gap: 2em;
 }
 
+
+.frontrectangle,
+.backrectangle {
+  width: 6in;
+  height: 4in;
+  position: relative;
+  left: 260px;
+  top: -600px;
+  margin: 55px auto;
+  overflow: hidden;
+  background-color:#b24040;
+}
 
 
 
@@ -22,7 +35,6 @@
 .mainosamatype {
   width: 250px;
 }
-
 
 #navbar {
   background: linear-gradient(to bottom, #252525, #f0eae7);
@@ -65,17 +77,28 @@
 }
 
 
+.second{
+  font-family: 'Jost', sans-serif;
+  font-weight: normal;
+  font-style: normal; 
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: fullwidth;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #4f1bfa;
+}
+
 h1{
     -webkit-text-stroke-width: 0px;
-    -webkit-text-stroke-color: #a72e2e;
+    -webkit-text-stroke-color: #b24040;
     font-family: "outfit", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 150px;
-    font-variant: no-common-ligatures proportional-nums;
-    line-height: 55px;
+    font-size: 66px;
+    line-height: 80px;
     text-transform: fullwidth;
-    letter-spacing: 6px;
+    letter-spacing: px;
     text-align: center;
     color: #1b0b22;
     
@@ -89,7 +112,7 @@ h1{
   }
   
   h4:hover {
-    color: #7c2222;
+    color: #b24040;
   }
   
   .rectangle {
@@ -98,23 +121,6 @@ h1{
     background-color: #008080;
     float: right;
   }
-
-h2{
-    -webkit-text-stroke-width: 0px;
-    -webkit-text-stroke-color: #7c2222;
-    font-family: 'outfit', sans-serif;
-    font-weight: 500;
-    font-style: normal; 
-    font-size: 55px;
-    line-height: 60px;
-    text-transform: lowercase;
-    letter-spacing: 9px;
-    initial-letter-align: hanging;
-    text-align: center;
-    color: #19266e;
-    text-decoration: #df2323 wavy underline;
-    
-    }
 
     
 h4{ 
@@ -146,7 +152,8 @@ h3{
     text-transform: fullwidth;
     letter-spacing: 3px;
     text-align: center;
-    color: #2a1279;}
+    color: #2a1279;
+  }
 
   h6{
     font-family: 'outfit', sans-serif;
@@ -163,9 +170,3 @@ h3{
     color: #b34141;
       
     }
-
-    
-
-
-      
-      
