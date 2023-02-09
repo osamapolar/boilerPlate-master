@@ -11,4 +11,14 @@ const addHandlers = () => {
     // $('#nextView').on('click', onMoonClick)
   }
 
-  
+  const navbar = document.querySelector("#navbar");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
+const burger = document.querySelector(".burger");
+
+burger.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+  links.forEach(link => {
+    link.classList.toggle("fade");
+  });
+});
