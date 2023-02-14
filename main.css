@@ -4,7 +4,22 @@ body {
 }
 
 
+<<<<<<< Updated upstream
 .parent{
+=======
+.osama {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
+}
+
+
+.columms {
+  font-family: "jost";
+  margin: 5rem auto;
+  width: min(90%, 22rem);
+>>>>>>> Stashed changes
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -114,6 +129,7 @@ body {
   align-items: center;
   height: 60px;
   padding: 0 20px;
+<<<<<<< Updated upstream
   background-color: #f0f0f0;
   color: #fff;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
@@ -123,6 +139,17 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: #b24040;
+=======
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo h4 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 .nav-links {
@@ -138,6 +165,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
+<<<<<<< Updated upstream
   color: #5a2727;
   font-size: 18px;
   transition: all 0.1s ease;
@@ -145,11 +173,50 @@ body {
 
 .nav-links a:hover {
   color: #b24040;
+=======
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #333;
+>>>>>>> Stashed changes
 }
 
 .burger {
   display: none;
   cursor: pointer;
+<<<<<<< Updated upstream
+=======
+}
+
+.line1, .line2, .line3 {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 992px) {
+  .nav-links {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+
+
+
+.right-aligned {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+>>>>>>> Stashed changes
 }
 
 .line1, .line2, .line3 {
