@@ -137,7 +137,7 @@ font-size: 1.925rem;
   bottom: var(--card-padding);
   left: var(--card-padding);
   margin-left: 1%;
-  font-size: 12px;
+  font-size: 7px;
   font-family: 'outfit', sans-serif;
   color: #ffe4c4;
   bottom: 23%;
@@ -149,7 +149,7 @@ font-size: 1.925rem;
   bottom: var(--card-padding);
   left: var(--card-padding);
   margin-left: 5%;
-  font-size: 12px;
+  font-size: 7px;
   font-family: 'outfit', sans-serif;
   color: #ffe4c4;
   bottom: 28%;
@@ -161,7 +161,7 @@ font-size: 1.925rem;
   .card-front__name3{
     bottom: var(--card-padding);
     left: var(--card-padding);
-    font-size: 13.5px;
+    font-size: 8px;
     font-family: 'outfit', sans-serif;
     color: #ffe4c4;
     bottom: 6%;
@@ -256,7 +256,7 @@ nav {
   color: #b24040;
   text-decoration: none;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 700;
   font-family: 'syne', sans-serif;
   transition: all 0.3s ease 0s;
@@ -329,18 +329,6 @@ nav {
     opacity: 1;
     transform: translateX(0px);
   }
-}
-
-.toggle .line:nth-child(1) {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line:nth-child(2) {
-  opacity: 0;
-}
-
-.toggle .line:nth-child(3) {
-  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 
