@@ -126,7 +126,7 @@ left: var(--card-padding);
 
 
 .card-front__name {
-  bottom: var(--card-padding);
+  position: relative;
   left: 4%;
   margin-left: 1%;
   font-size: 0.8rem;
@@ -138,7 +138,6 @@ left: var(--card-padding);
 }
 
 .card-front__name2{
-  bottom: var(--card-padding);
   left: 2%;
   margin-left: 7%;
   font-size: 0.8rem;
