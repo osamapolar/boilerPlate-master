@@ -124,7 +124,6 @@ left: var(--card-padding);
 .card-front__number {
 top: 50%;
 left: var(--card-padding);
-font-size: 1.925rem;
 }
 
 .card-front__name {
@@ -213,9 +212,16 @@ header img {
   height: auto;
 }
 
-@media (min-width: 768px) {
-  header img {
-    width: 5%;
+@media (min-width: 700px) {
+  .card-previews {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
   }
- 
+}
+
+@media (min-width: 700px) {
+  .card-front__name3 {
+width: 70px;
+  }
 }
