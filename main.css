@@ -152,7 +152,7 @@ left: var(--card-padding);
 
   .card-front__name3{
     bottom: var(--card-padding);
-    left: 4%;
+    left: 3.5%;
     font-size: 0.9rem;
     font-family: 'outfit', sans-serif;
     color: #ffe4c4;
@@ -191,22 +191,6 @@ top: 44%;
 }
 header {
   position: fixed;
-}
-
-header img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100px;
-  height: 100px;
-}
-
-header img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 10%;
-  height: auto;
 }
 
 @media (min-width: 700px) {
