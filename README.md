@@ -4,15 +4,11 @@
 
 ###### Skills that I have used to make the website
 
-- ###### Position: Grid
-- ###### Hover effect
-- ###### Media 
-- ###### Hover effect
-- ###### Hover effect
-- ###### Hover effect
-- ###### Hover effect
-- ###### Hover effect
+* ###### Position: Grid
+* ###### Hover effect
+* ###### Media
 
- ## Main Name type 
+###### Mainly I wanted to appear to look modern east to navigate and sort of mature in way
+## Main Name type
 
- ###### my inspaeration for that sort of started with playing around with different fonts and it lead to me costom psacing and really exploring different shapes to place the text in a presentable way!
+###### my inspaeration for that sort of started with playing around with different fonts and it lead to me costom psacing and really exploring different shapes to place the text in a presentable way!
